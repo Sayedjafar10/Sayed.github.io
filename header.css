@@ -16,7 +16,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 70%;
+        height: 50%;
         background-color: #412234;
     }
     .navbar-item {
@@ -52,9 +52,9 @@
         display: block;
         position: absolute;
         left: 0;
-        background-color: var(--bg-primary);
+       
         padding: 0.3ch;
-        border: 3px solid var(--bg-secondary);
+     
         border-radius: 0.3ch;
         z-index: 10;
         color:#FFC857;
@@ -89,20 +89,12 @@
         color: darkred;
         font-variant: small-caps;
     }
-    /* Styla det yttre div-elementet med id "cart" */
-    #cart {
-        background-color: #2E4052;
-        padding: 10px; /* Inre utfyllnad */
-        border-radius: 5px; /* Avrundade hörn */
-        text-align: center; /* Textcentrering */
-        margin: 0px; /* Margin runt hela 10px */
-    }
-
+   
 
     a:link, a:visited {
         color: #FFC857;
     }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 768px) {
        
         body {
             color: black;
@@ -193,18 +185,4 @@
         }
     }
 
-
-    /* Styla texten inuti span-elementet */
-    #cart span {
-        font-size: 18px; /* Textstorlek */
-        color: #FFC857; /* Textfärg */
-        font-weight: bold; /* Fet text */
-    }
-
-
-
-
-    #menu-icon.active ~ #menu {
-        display: block;
-        margin-top: 5rem; /* Justera detta värde efter behov */
-    }
+ 

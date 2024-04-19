@@ -6,12 +6,12 @@ $(document).ready(function () {
         let windowWidth = $(window).width(); // Flytta variabeln här för att få den aktuella fönsterbredden
 
         if (windowWidth <= 800) {
-            // Om fönsterbredden är mindre än eller lika med 800 pixlar, visa menuikonen och dölj menyn
+            // Om fönsterbredden är mindre än eller lika med 800 pixlar, visa menuikonen och dölj menyn för mobilar exampelvis
             $("#menu-icon").show();
             $("#menu").hide();
            
         } else {
-            // Om fönsterbredden är större än 800 pixlar, visa menyn och dölj menuikonen
+            // Om fönsterbredden är större än 800 pixlar, visa menyn och dölj menuikon
             $("#menu").show();
             $("#menu-icon").hide();
         }
