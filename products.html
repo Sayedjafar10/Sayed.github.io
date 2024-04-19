@@ -4,75 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Webshop</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-      #app2 {
-        text-align: center;
-        padding: 20px;
-      }
-      .Webshop-h1 {
-        margin-bottom: 20px;
-      }
-      #cart {
-        margin-bottom: 20px;
-      }
-      .product {
-        display: inline-block;
-        margin: 10px;
-        border: 1px solid #ccc;
-        padding: 10px;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-      button {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 5px 10px;
-        cursor: pointer;
-      }
-      button:hover {
-        background-color: #0056b3;
-      }
-    </style>
+    <link rel="stylesheet" href="Productscss.css" />
+    <!-- Link  för product css filen  -->
   </head>
   <body>
-    <div id="app2">
+    <div id="app">
       <h1 class="Webshop-h1">Webshop</h1>
+      <main>
+        <div class="product">
+          <img src="img/product1.jpg" alt="Smart Home Guardian" />
+          <h2>Smart Home Guardian</h2>
+          <p>Price: $4999.99</p>
+          <button>Add to Cart</button>
+        </div>
 
-      <div class="product">
-        <img src="img/product1.jpg" alt="Smart Home Guardian" />
-        <h2>Smart Home Guardian</h2>
-        <p>Price: $4999.99</p>
-        <button>Add to Cart</button>
-      </div>
+        <div class="product">
+          <img src="img/product2.jpg" alt="Eco Tracker" />
+          <h2>Eco Tracker</h2>
+          <p>Price: $3744.99</p>
+          <button>Add to Cart</button>
+        </div>
 
-      <div class="product">
-        <img src="img/product2.jpg" alt="Eco Tracker" />
-        <h2>Eco Tracker</h2>
-        <p>Price: $3744.99</p>
-        <button>Add to Cart</button>
-      </div>
+        <div class="product">
+          <img src="img/product2.jpg" alt="Health Companion" />
+          <h2>Health Companion</h2>
+          <p>Price: $999.99</p>
+          <button>Add to Cart</button>
+        </div>
 
-      <div class="product">
-        <img src="img/product2.jpg" alt="Health Companion" />
-        <h2>Health Companion</h2>
-        <p>Price: $999.99</p>
-        <button>Add to Cart</button>
-      </div>
-
-      <div class="product">
-        <img src="img/product3.jpg" alt="CodeCraft Academy" />
-        <h2>CodeCraft Academy</h2>
-        <p>Price: $249.99</p>
-        <button>Add to Cart</button>
-      </div>
+        <div class="product">
+          <img src="img/product3.jpg" alt="CodeCraft Academy" />
+          <h2>CodeCraft Academy</h2>
+          <p>Price: $249.99</p>
+          <button>Add to Cart</button>
+        </div>
+      </main>
     </div>
+    <footer>
+      <p>&copy; 2024 Simple Webshop. All rights reserved.</p>
+    </footer>
   </body>
 </html>
