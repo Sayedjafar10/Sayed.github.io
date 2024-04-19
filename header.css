@@ -1,9 +1,12 @@
 
+
+/* Styling för mindre skärmar*/
+
+
     #menu {
         width: 16rem;
         height: 100vh;
         position: fixed;
-        background-color: var(--bg-primary);
         z-index: 10;
         font-family: 'Didact Gothic', sans-serif;
         margin-top: 0px;
@@ -80,20 +83,14 @@
         color: white;
         text-align: center;
     }
-    h3 {
-        font-family: 'Didact Gothic', sans-serif;
-        font-size: medium;
-        font-weight: lighter;
-        padding: 0%;
-        margin: 0%;
-        color: darkred;
-        font-variant: small-caps;
-    }
+    
    
 
     a:link, a:visited {
         color: #FFC857;
     }
+
+    /* Stilar för större skärmar (minst 768px bredd) */
     @media screen and (min-width: 768px) {
        
         body {
@@ -174,15 +171,7 @@
         #cart {
             margin: 10px;
         }
-        h3 {
-            font-family: 'Didact Gothic', sans-serif;
-            font-size: medium;
-            font-weight: lighter;
-            padding: 0%;
-            margin: 0%;
-            color: #FFC857;
-            font-variant: small-caps;
-        }
+       
     }
 
  
