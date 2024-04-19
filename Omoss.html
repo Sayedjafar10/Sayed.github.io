@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om Software AB</title>
+    <style>
+      /* Reset styles to remove default browser styles */
+      body,
+      h1,
+      h2,
+      h3,
+      p,
+      img {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        max-width: 1300px; /* Justerbar bredd för desktop */
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        text-align: center;
+      }
+
+      .about-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      /* Stilar för olika rubriker */
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      /* Stilar för huvudsektionen */
+      .about-us {
+        background-color: #f2f2f2;
+        padding: 40px 0;
+      }
+
+      /* Stilar för text */
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+
+      /* Responsiv design för mindre skärmar */
+      @media only screen and (max-width: 600px) {
+        .container {
+          padding: 10px;
+        }
+
+        h2 {
+          font-size: 20px;
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="about-us">
+      <div class="container">
+        <h2>Om Software AB</h2>
+        <img src="img/photoProj.jpg" alt="Vårt team" class="about-img" />
+        <p>
+          Software AB grundades 2021 med en passion för innovation inom teknik
+          och elektronik. Vårt mål är att erbjuda högkvalitativa
+          elektronikprodukter som förenklar och förbättrar våra kunders vardag.
+          Vi tror på teknikens kraft att skapa positiva förändringar och strävar
+          efter att vara i framkant när det gäller både produkter och
+          kundservice.
+        </p>
+
+        <h3 class="vision">Vår Vision</h3>
+        <p>
+          Vår vision är att skapa en plattform där teknikentusiaster och
+          professionella kan hitta de senaste och mest pålitliga
+          elektronikprodukterna.
+        </p>
+
+        <h3 class="sustainability">Hållbarhet och Tillgänglighet</h3>
+        <p>
+          Hållbarhet ligger oss varmt om hjärtat, och vi arbetar hårt för att
+          integrera miljövänliga förpackningar och frakttjänster i vår
+          verksamhet. Tillgänglighet är också en prioritet, och vi anstränger
+          oss för att vår webbplats ska vara tillgänglig för alla, i enlighet
+          med WCAG-riktlinjer.
+        </p>
+
+        <p>
+          Tack för att du besöker oss. Vi ser fram emot att hjälpa dig med dina
+          elektronikbehov!
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
