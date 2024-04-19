@@ -60,7 +60,7 @@
         color:#FFC857;
     }
     h1 {
-        font-size: large;
+        font-size: larger;
         color:#FFC857;
         text-align: center;
         font-family: 'Didact Gothic', sans-serif;
@@ -68,9 +68,9 @@
         margin: 0;
     }
     h2 {
-        font-size: medium;
+        font-size: large;
         font-weight: bold;
-        color: darkred;
+        color:#FFC857;
         font-family: 'Didact Gothic', sans-serif;
         font-variant: small-caps;
     }
@@ -103,13 +103,7 @@
         color: #FFC857;
     }
     @media screen and (min-width: 800px) {
-        :root {
-            font-size: 1rem;
-            --text-primary: white;
-            --text-secondary: gray;
-            --bg-primary: #412234;
-            --bg-secondary: rgb(85, 0, 0);
-        }
+       
         body {
             color: black;
             background-color:#2E4052;

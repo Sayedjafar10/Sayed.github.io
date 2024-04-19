@@ -1,0 +1,77 @@
+/*  ta bort standardwebbläsarstilar.*/
+body,
+h1,
+h2,
+h3,
+p,
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px; /* Justerbar bredd för desktop */
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Stilar för olika rubriker */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-us {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+/*  text */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Responsiv design för mindre skärmar */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+  }

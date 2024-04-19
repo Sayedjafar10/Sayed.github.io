@@ -1,3 +1,6 @@
+
+/* stilar för att göra produkt sidan mer responstiv och användbar */
+ 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,6 +22,9 @@ body {
     border: 1px solid #ccc;
     padding: 10px;
   }
+  /* detta gör hemsidan responsiv genom att bilder anpassar sig till olika skärmstorlekar.
+   dvs Bilden kommer inte bli bredare än sidan den är på. Och den kommer att hålla samma
+    proportioner när sidan ändrar storlek.*/
   img {
     max-width: 100%;
     height: auto;
